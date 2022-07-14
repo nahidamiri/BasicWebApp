@@ -23,6 +23,5 @@ public class WebPageResource {
 		model.addAttribute("query", query);
 		model.addAttribute("answer", answer);
 		return "answer";
-
 	}
 }
